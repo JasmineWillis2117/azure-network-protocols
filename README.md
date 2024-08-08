@@ -129,15 +129,10 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <br />
 
 
-5. Use Windows 10 Virtual Machine via Remote Desktop access</p>
--  Download and access WireShark</p>
--  Using WireShark, filter for ICMP traffic only</p>
--  Get your Private IP address from Azure platform</p>
--  Ping the private address using Command Prompt</p>
--  Initiate a perpetual/non-stop ping from your Windows 10 VM to your Ubuntu VM</p>
--  Open Network Security Group using Azure </p>
--  Disable incoming ICMP traffic (ICMPv4), observe ICMP traffic in WireShark and Command line</p>
--  Re-enable ICMP traffic, observe ICMP traffic in WireShark and Command line </p>
+5. Observe DNS Traffic</p>
+-  Back in Wireshark, filter for DNS traffic only</p>
+-  From your Windows 10 VM within a command line, use nslookup to see what google.com and disney.com’s IP addresses are</p>
+-  Observe the DNS traffic being show in WireShark</p>
 </p>
 </p>
 </p>
@@ -147,7 +142,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <br />
 
 <p>
-<img src="https://i.imgur.com/W763fq1.png" height="40%" width="40%" alt="Disk Sanitization Steps"/></p> <img src="https://i.imgur.com/Rr9VL2p.png" height="40%" width="40%" alt="Disk Sanitization Steps"/></p>  <img src="https://i.imgur.com/y2IwQbd.png" height="40%" width="40%" alt="Disk Sanitization Steps"/></p>  <img src="https://i.imgur.com/sS2alrf.png" height="40%" width="40%" alt="Disk Sanitization Steps"/></p> <img src="https://i.imgur.com/JfwGMyK.png" height="40%" width="40%" alt="Disk Sanitization Steps"/></p> <img src="https://i.imgur.com/JHJcxqK.png" height="40%" width="40%" alt="Disk Sanitization Steps"/></p>  <img src="https://i.imgur.com/fhI5p1q.png" height="40%" width="40%" alt="Disk Sanitization Steps"/></p>
+<img src="https://i.imgur.com/ztKcYiq.png" height="40%" width="40%" alt="Disk Sanitization Steps"/></p> <img src="https://i.imgur.com/3r1oGpY.png" height="40%" width="40%" alt="Disk Sanitization Steps"/></p> 
 </p>
 </p>
 </p>
@@ -155,3 +150,27 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <br />
 <br />
 <br />
+
+
+6. Observe RDP Traffic</p>
+-  Back in Wireshark, filter for RDP traffic only (tcp.port == 3389)</p>
+-  Observe the immediate non-stop spam of traffic</p>
+
+
+-  Note:  The reason Why there is non-stop spamming is because the RDP (protocol) is constantly showing you a live stream from one computer to another, therefore traffic is always being transmitted.</p>
+</p>
+</p>
+</p>
+<br />
+<br />
+
+<p>
+<img src="https://i.imgur.com/XEcIdCO.png" height="40%" width="40%" alt="Disk Sanitization Steps"/></p> 
+</p>
+</p>
+</p>
+</p>
+<br />
+<br />
+<br />
+

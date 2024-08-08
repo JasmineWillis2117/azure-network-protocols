@@ -84,7 +84,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 </p>
 <p>
-3. In Wireshark, filter for SSH traffic only
+3. In Wireshark, filter for SSH traffic only</p>
 -  From your Windows 10 VM, “SSH into” your Ubuntu Virtual Machine (via its private IP address)</p>
 -  Type commands (username, pwd, etc) into the linux SSH connection and observe SSH traffic spam in WireShark</p>
 -  Exit the SSH connection by typing ‘exit’ and pressing [Enter]</p>
@@ -97,8 +97,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <br />
 
 <p>
-<img src="https://i.imgur.com/W763fq1.png" height="40%" width="40%" alt="Disk Sanitization Steps"/></p> <img src="https://i.imgur.com/Rr9VL2p.png" height="40%" width="40%" alt="Disk Sanitization Steps"/></p>  <img src="https://i.imgur.com/y2IwQbd.png" height="40%" width="40%" alt="Disk Sanitization Steps"/></p>  <img src="https://i.imgur.com/sS2alrf.png" height="40%" width="40%" alt="Disk Sanitization Steps"/></p> <img src="https://i.imgur.com/JfwGMyK.png" height="40%" width="40%" alt="Disk Sanitization Steps"/></p> <img src="https://i.imgur.com/JHJcxqK.png" height="40%" width="40%" alt="Disk Sanitization Steps"/></p>  <img src="https://i.imgur.com/fhI5p1q.png" height="40%" width="40%" alt="Disk Sanitization Steps"/></p>
-</p>
+<img src="https://i.imgur.com/puY47lu.png" height="40%" width="40%" alt="Disk Sanitization Steps"/></p> <img src="https://i.imgur.com/USXWPJT.png" height="40%" width="40%" alt="Disk Sanitization Steps"/></p> 
 </p>
 </p>
 </p>
@@ -108,7 +107,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 
 4. Observe DHCP Traffic</p>
--  Back in Wireshark, filter for DHCP traffic only</p>
+-  In Wireshark, filter for DHCP traffic only</p>
 -  From your Windows 10 VM, attempt to issue your VM a new IP address from the command line (ipconfig /renew)</p>
 -  Observe the DHCP traffic appearing in WireShark</p>
 </p>
@@ -120,7 +119,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <br />
 
 <p>
-<img src="https://i.imgur.com/W763fq1.png" height="40%" width="40%" alt="Disk Sanitization Steps"/></p> <img src="https://i.imgur.com/Rr9VL2p.png" height="40%" width="40%" alt="Disk Sanitization Steps"/></p>  <img src="https://i.imgur.com/y2IwQbd.png" height="40%" width="40%" alt="Disk Sanitization Steps"/></p>  <img src="https://i.imgur.com/sS2alrf.png" height="40%" width="40%" alt="Disk Sanitization Steps"/></p> <img src="https://i.imgur.com/JfwGMyK.png" height="40%" width="40%" alt="Disk Sanitization Steps"/></p> <img src="https://i.imgur.com/JHJcxqK.png" height="40%" width="40%" alt="Disk Sanitization Steps"/></p>  <img src="https://i.imgur.com/fhI5p1q.png" height="40%" width="40%" alt="Disk Sanitization Steps"/></p>
+<img src="https://i.imgur.com/27YcH1P.png" height="40%" width="40%" alt="Disk Sanitization Steps"/></p> 
 </p>
 </p>
 </p>
@@ -128,6 +127,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <br />
 <br />
 <br />
+
 
 5. Use Windows 10 Virtual Machine via Remote Desktop access</p>
 -  Download and access WireShark</p>
